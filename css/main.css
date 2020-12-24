@@ -92,8 +92,16 @@ header, footer{
   align-items: center;
   flex-flow: row wrap;
 }
-
-
+header {
+  padding: 15px 0;
+}
+header nav {
+  width: 60%;
+}
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
 
 /* ==========================================================================
    Helper classes
