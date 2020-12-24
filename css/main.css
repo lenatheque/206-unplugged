@@ -12,11 +12,14 @@
    ========================================================================== */
 body{
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  list-style-type: none;
 }
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  list-style-type: none;
 }
 h2 {
   font-family: 'Poppins', sans-serif;
@@ -25,6 +28,12 @@ h2 {
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
+}
+
+a{
+  color: #e2e3ed;
+  text-decoration: none;
+  list-style-type: none;
 }
 /*
  * Remove text-shadow in selection highlight:
