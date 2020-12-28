@@ -266,7 +266,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background: url(../img/hero-image.jpg);
+  background: url(../img/unplugged-retreat.jpg);
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -275,9 +275,9 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
-.hero-area h1{
+.hero-area h1 {
   font-size: 2.25em;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -285,18 +285,18 @@ footer .copyright {
 /* Aside */
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #527158;
 }
 
-aside .form{
+aside .form {
   margin-top: 30px;
 }
 
-input [type=text]{
+input[type=text] {
   box-sizing: border-box;
   width: 100%;
   color: #2a423a;
@@ -304,7 +304,7 @@ input [type=text]{
   padding: 1em;
 }
 
-input [type=button]{
+input[type=button] {
   width: 100%;
   padding: 20px 0;
   margin-top: 20px;
@@ -318,12 +318,10 @@ input [type=button]{
   text-transform: uppercase;
 }
 
-
-
 /* Features */
 
 .features {
-  background: url('img/image3.jpg');
+  background: url('../img/unplugged-retreat-features.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -347,7 +345,13 @@ input [type=button]{
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -362,6 +366,7 @@ input [type=button]{
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -379,6 +384,22 @@ input [type=button]{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.map figure{
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contact-section {
@@ -524,6 +545,15 @@ input [type=button]{
      margin: 100px 0;
    }
 
+h2{
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+h3{
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
    /* Header */
    header {
      justify-content: space-around;
@@ -624,6 +654,7 @@ input [type=button]{
      display: flex;
      justify-content: space-between;
      align-items: center;
+     flex-direction: row;
    }
 
    footer .contact {
@@ -639,6 +670,11 @@ footer p{
   line-height: 1.285;
 }
 
+footer .social-icons{
+  width: 12.5em;
+  justify-content: space-between;
+}
+
    footer .copyright {
      width: 100%;
    }
@@ -651,11 +687,11 @@ footer p{
      padding-bottom: 45.5%;
    }
    
-     .mission-content {
+  .mission-content {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     padding-top: 20px
+     padding-top: 20px;
    }
 
    .mission-content p {
@@ -820,34 +856,12 @@ footer p{
     line-height: 1;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  @media print,
  (-webkit-min-device-pixel-ratio: 1.25),
  (min-resolution: 1.25dppx),
  (min-resolution: 120dpi) {
    /* Style adjustments for high resolution devices */
  }
-
- 
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
