@@ -1,6 +1,5 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -10,31 +9,13 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-body{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  list-style-type: none;
-}
+
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  list-style-type: none;
-}
-h2 {
-  font-family: 'Poppins', sans-serif;
 }
 
-h3,
-h4 {
-  font-family: 'Poppins', sans-serif;
-}
-
-a{
-  color: #e2e3ed;
-  text-decoration: none;
-  list-style-type: none;
-}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -100,13 +81,17 @@ fieldset {
 textarea {
   resize: vertical;
 }
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
 
-.browserupgrade{
+.browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
 }
+
 /* ==========================================================================
    General Styles
    ========================================================================== */
