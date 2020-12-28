@@ -176,6 +176,7 @@ header, footer{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 header {
   padding: 15px 0;
@@ -209,6 +210,7 @@ header figure{
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background: #3a3a3a;
 }
 header nav {
   width: 60%;
@@ -645,7 +647,11 @@ footer p{
      About Page
      ========================================================================== */
 
-   .mission-content {
+   .map figure {
+     padding-bottom: 45.5%;
+   }
+   
+     .mission-content {
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -685,7 +691,7 @@ footer p{
      overflow: hidden;
 
    }
-   
+
    .map iframe{ 
     width: 100%;
     height: 100%;
@@ -787,7 +793,9 @@ footer p{
   /* ==========================================================================
   About Page
   ========================================================================== */
-
+ .map figure {
+   padding-bottom: 37.5%;
+ }
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
