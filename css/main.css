@@ -93,65 +93,71 @@ textarea {
 }
 
 /* ==========================================================================
-   General Styles
+   Author's custom styles
    ========================================================================== */
-html{
+
+/* General Styles */
+
+html {
   font-size: 16px;
 }
 
-body{
+body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   color: #e2e3ed;
   text-align: left;
 }
 
-ul,ol{
+ul,
+ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-a{
+a {
   color: #e2e3ed;
   text-decoration: none;
 }
 
-h2{
+h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
-h3,h4{
+h3,
+h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.125em;
   margin: 20px 0;
 }
 
-p{
+p {
   font-size: .875em;
   line-height: 1.285;
 }
 
-img{
+img {
   width: 100%;
 }
 
-figure{
+figure {
   margin: 0;
 }
 
-address{
+address {
   font-style: normal;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-.content-wrapper{
-  width:90%;
+.content-wrapper {
+  width: 90%;
   margin: 50px 0;
 }
+
   /* ==========================================================================
   Header-Footer Style
    ========================================================================== */
