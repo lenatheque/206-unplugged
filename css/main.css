@@ -265,7 +265,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background: url(../img/hero-image.jpg);
+  background: url(img/hero-background.png);
   background-size: cover;
   background-position: center;
   min-height: 500px;
